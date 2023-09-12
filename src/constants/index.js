@@ -1,5 +1,5 @@
-import {
-    /*mobile,
+/*import {
+    mobile,
     backend,
     creator,
     web,
@@ -21,10 +21,15 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,*/
+    threejs,
     logo
-  } from "../assets";
+  } from "../assets"; 
+  */
   
+  import {
+    logo
+  } from '../assets';
+ 
   export const navLinks = [
     {
       id: "about",
