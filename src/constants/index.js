@@ -27,7 +27,11 @@
   */
   
   import {
-    logo
+    logo,
+    frontend,
+    backend,
+    web,
+    flutter
   } from '../assets';
  
   export const navLinks = [
@@ -47,20 +51,20 @@
   
   const services = [
     {
-      title: "Web Developer",
-      //icon: web,
-    },
-    {
-      title: "React Native Developer",
-      //icon: mobile,
+      title: "Frontend Developer",
+      icon: frontend,
     },
     {
       title: "Backend Developer",
-      //icon: backend,
+      icon: backend,
     },
     {
-      title: "Content Creator",
-      //icon: creator,
+      title: "Web Developer",
+      icon: web,
+    },
+    {
+      title: "Flutter Developer",
+      icon: flutter,
     },
   ];
   
