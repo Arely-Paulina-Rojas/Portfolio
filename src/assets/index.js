@@ -5,6 +5,7 @@ import frontend from './frontend.png';
 import backend from './backend.png';
 import web from './web.png';
 import flutter from './flutter.png';
+import axio from './axio.png';
 
 export {
     logo,
@@ -13,5 +14,6 @@ export {
     frontend,
     backend,
     web,
-    flutter
+    flutter,
+    axio
 };

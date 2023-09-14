@@ -13,6 +13,25 @@
   color-scheme: dark;
 }
 
+.vertical-timeline-element-icon {
+  position:absolute;
+  top:0;
+  left:0;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  box-shadow:0 0 0 4px #F6467E,
+  inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)
+}
+
+.vertical-timeline-element-content {
+  position:relative;
+  margin-left:60px;
+  border-radius:.25em;
+  padding:1em;
+  box-shadow:0 3px 0 #F6467E
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
