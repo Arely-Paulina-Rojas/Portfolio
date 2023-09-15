@@ -4,7 +4,22 @@ import {
   backend,
   web,
   flutter,
-  axio
+  axio,
+  c,
+  cplusplus,
+  java,
+  typescript,
+  php,
+  html,
+  css,
+  angular,
+  bootstrap,
+  node,
+  expressjs,
+  git,
+  flutter_logo,
+  mongo,
+  mysql
 } from '../assets';
  
 export const navLinks = [
@@ -43,56 +58,64 @@ const services = [
   
 const technologies = [
   {
-    name: "HTML 5",
-    //icon: html,
+    name: "C",
+    icon: c,
   },
   {
-    name: "CSS 3",
-    //icon: css,
+    name: "C++",
+    icon: cplusplus,
   },
   {
-    name: "JavaScript",
-    //icon: javascript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "TypeScript",
-    //icon: typescript,
+    icon: typescript,
   },
   {
-    name: "React JS",
-    //icon: reactjs,
+    name: "PHP",
+    icon: php,
   },
   {
-    name: "Redux Toolkit",
-    //icon: redux,
+    name: "HTML",
+    icon: html,
   },
   {
-    name: "Tailwind CSS",
-    //icon: tailwind,
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
-    //icon: nodejs,
+    icon: node,
   },
   {
-    name: "MongoDB",
-    //icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    //icon: threejs,
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "git",
-    //icon: git,
+    icon: git,
   },
   {
-    name: "figma",
-    //icon: figma,
+    name: "Flutter",
+    icon: flutter_logo,
   },
   {
-    name: "docker",
-    //icon: docker,
+    name: "MongoDB",
+    icon: mongo,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
 ];
   
@@ -109,32 +132,6 @@ const experiences = [
       'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
       'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
       'Collaborating with work team to create user manual of "AllFix" web application.'
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    //icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    //icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
