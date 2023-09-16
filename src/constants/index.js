@@ -19,7 +19,17 @@ import {
   git,
   flutter_logo,
   mongo,
-  mysql
+  mysql,
+  greenwaste,
+  greenwastetwo,
+  calculator,
+  calculatortwo,
+  quickbreak,
+  quickbreaktwo,
+  unsafezone,
+  unsafezone_2,
+  tophy,
+  tophy_2
 } from '../assets';
  
 export const navLinks = [
@@ -165,67 +175,113 @@ const testimonials = [
   
 const projects = [
   {
-    name: "Car Rent",
+    name: "Achievements Calculator",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Flutter",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "SQLite",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Dart",
       },
     ],
-    //image: carrent,
-    source_code_link: "https://github.com/",
+    image: calculator,
+    source_code_link: "https://github.com/Arely-Paulina-Rojas/Achievements-Calculator",
   },
   {
-    name: "Job IT",
+    name: "GreenWaste",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Flutter",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "MySQL",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "R",
+      },
+      {
+        name: "Java",
+      },
+      {
+        name: "Vue.js",
       },
     ],
-    //image: jobit,
-    source_code_link: "https://github.com/",
+    image: greenwaste,
+    source_code_link: "https://github.com/Daligz/GreenWaste",
   },
   {
-    name: "Trip Guide",
+    name: "QuickBreak",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Flutter",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Express.js",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Node.js",
+      },
+      {
+        name: "MongoDB",
+      },
+      
+    ],
+    image: quickbreak,
+    source_code_link: "https://github.com/Arely-Paulina-Rojas/QuickBreak",
+  },
+  {
+    name: "UnsafeZone",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "Angular",
+      },
+      {
+        name: "Express.js",
+      },
+      {
+        name: "Node.js",
+      },
+      {
+        name: "MongoDB",
+      },
+      {
+        name: "Bootstrap",
       },
     ],
-    //image: tripguide,
-    source_code_link: "https://github.com/",
+    image: unsafezone,
+    source_code_link: "https://github.com/Arely-Paulina-Rojas/UnsafeZone",
+  },
+  {
+    name: "TophyGalaxy",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "PHP",
+      },
+      {
+        name: "MySQL",
+      },
+      {
+        name: "CodeIgniter",
+      },
+      {
+        name: "Bootstrap",
+      },
+    ],
+    image: tophy,
+    source_code_link: "https://github.com/Arely-Paulina-Rojas/Tophy-Galaxy",
   },
 ];
   

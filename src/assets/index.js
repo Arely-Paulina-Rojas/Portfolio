@@ -21,7 +21,17 @@ import git from './tech/git.png';
 import flutter_logo from './tech/flutter.png';
 import mongo from './tech/mongo.png';
 import mysql from './tech/mysql.png';
-
+import greenwaste from './projects/greenwaste.png';
+import greenwastetwo from './projects/greenwaste_2.png';
+import calculator from './projects/calculator.png';
+import calculatortwo from './projects/calculator_2.png';
+import quickbreak from './projects/quickbreak.png';
+import quickbreaktwo from './projects/quickbreak_2.png';
+import unsafezone from './projects/unsafezone.png';
+import unsafezone_2 from './projects/unsafezone_2.png';
+import tophy from './projects/tophy.png';
+import tophy_2 from './projects/tophy_2.png';
+import github from './github.png';
 
 export {
     logo,
@@ -46,5 +56,16 @@ export {
     git,
     flutter_logo,
     mongo,
-    mysql
+    mysql,
+    greenwaste,
+    greenwastetwo,
+    calculator,
+    calculatortwo,
+    quickbreak,
+    quickbreaktwo,
+    unsafezone,
+    unsafezone_2,
+    tophy,
+    tophy_2,
+    github
 };
