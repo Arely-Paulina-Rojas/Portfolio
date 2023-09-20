@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
@@ -5,9 +6,14 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import Modal from './Modal';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, sec_image, title, date, points, source_code_link }) => {
+  const [showModal, setShowModal] = useState(false)
+  const handleOnClose = () => setShowModal(false)
+
   return (
+    <>
     <motion.div variants = { fadeIn("up", "spring", index * 0.5, 0.75) }>
       <Tilt
         options = {{
@@ -23,15 +29,21 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             alt = { name }
             className = 'w-full h-full object-cover'
           />
-
-          <div className = 'absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div onClick = {() => window.open(source_code_link, "_blank")} className='white-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer'>
-              <img 
-                src = { github }
-                alt = 'github'
-                className = 'w-7 h-7 object contain'
-              />
+          <div className = 'absolute inset-0 flex justify-start m-3 card-img_hover'>
+            <div className='w-2 h-2 flex justify-center items-center cursor-pointer'>
+              <button onClick = {() => setShowModal({ showModal })} className = "text-white bg-tertiary hover:bg-black focus:outline-none text-[10px] px-2 py-2 text-center" type="button">
+                +
+              </button>
             </div>
+            <div className = 'absolute inset-0 flex justify-end m-0 card-img_hover'>
+              <div onClick = {() => window.open(source_code_link, "_blank")} className='white-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer'>
+                <img 
+                  src = { github }
+                  alt = 'github'
+                  className = 'w-7 h-7 object contain'
+                />
+              </div>
+            </div>       
           </div>
         </div>
 
@@ -47,10 +59,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
       </Tilt>
     </motion.div>
+    <Modal visible = { showModal } onClose = { handleOnClose } image = { sec_image } title = { title }  date = { date } points = { points }/>
+    </>
   )
 }
 
-const Works = () => {
+const Works = () => {  
   return (
     <>
       <motion.div variants = { textVariant() }>
@@ -74,7 +88,9 @@ const Works = () => {
             index = { index }
             { ...project }
           />
+          
         )) }
+        
       </div>
     </>
   )

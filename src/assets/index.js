@@ -28,9 +28,9 @@ import calculatortwo from './projects/calculator_2.png';
 import quickbreak from './projects/quickbreak.png';
 import quickbreaktwo from './projects/quickbreak_2.png';
 import unsafezone from './projects/unsafezone.png';
-import unsafezone_2 from './projects/unsafezone_2.png';
+import unsafezonetwo from './projects/unsafezone_2.png';
 import tophy from './projects/tophy.png';
-import tophy_2 from './projects/tophy_2.png';
+import tophytwo from './projects/tophy_2.png';
 import github from './github.png';
 
 export {
@@ -64,8 +64,8 @@ export {
     quickbreak,
     quickbreaktwo,
     unsafezone,
-    unsafezone_2,
+    unsafezonetwo,
     tophy,
-    tophy_2,
+    tophytwo,
     github
 };

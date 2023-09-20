@@ -27,9 +27,9 @@ import {
   quickbreak,
   quickbreaktwo,
   unsafezone,
-  unsafezone_2,
+  unsafezonetwo,
   tophy,
-  tophy_2
+  tophytwo
 } from '../assets';
  
 export const navLinks = [
@@ -190,7 +190,17 @@ const projects = [
       },
     ],
     image: calculator,
+    sec_image: calculatortwo,
     source_code_link: "https://github.com/Arely-Paulina-Rojas/Achievements-Calculator",
+    title: "Full Stack Mobile Developer",
+    date: "May 2023 - June 2023",
+    points: [
+      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
+      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
+      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
+      'Collaborating with work team to create user manual of "AllFix" web application.'
+    ],
   },
   {
     name: "GreenWaste",
@@ -214,7 +224,17 @@ const projects = [
       },
     ],
     image: greenwaste,
+    sec_image: greenwastetwo,
     source_code_link: "https://github.com/Daligz/GreenWaste",
+    title: "Full Stack Mobile Developer",
+    date: "July 2022 - August 2022",
+    points: [
+      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
+      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
+      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
+      'Collaborating with work team to create user manual of "AllFix" web application.'
+    ],
   },
   {
     name: "QuickBreak",
@@ -236,7 +256,17 @@ const projects = [
       
     ],
     image: quickbreak,
+    sec_image: quickbreaktwo,
     source_code_link: "https://github.com/Arely-Paulina-Rojas/QuickBreak",
+    title: "Full Stack Mobile Developer",
+    date: "June 2022 - August 2022",
+    points: [
+      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
+      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
+      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
+      'Collaborating with work team to create user manual of "AllFix" web application.'
+    ],
   },
   {
     name: "UnsafeZone",
@@ -260,7 +290,17 @@ const projects = [
       },
     ],
     image: unsafezone,
+    sec_image: unsafezonetwo,
     source_code_link: "https://github.com/Arely-Paulina-Rojas/UnsafeZone",
+    title: "Full Stack Web Developer",
+    date: "October 2021 - December 2021",
+    points: [
+      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
+      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
+      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
+      'Collaborating with work team to create user manual of "AllFix" web application.'
+    ],
   },
   {
     name: "TophyGalaxy",
@@ -281,7 +321,17 @@ const projects = [
       },
     ],
     image: tophy,
+    sec_image: tophytwo,
     source_code_link: "https://github.com/Arely-Paulina-Rojas/Tophy-Galaxy",
+    title: "Full Stack Web Developer",
+    date: "November 2020 - December 2020",
+    points: [
+      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
+      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
+      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
+      'Collaborating with work team to create user manual of "AllFix" web application.'
+    ],
   },
 ];
   
