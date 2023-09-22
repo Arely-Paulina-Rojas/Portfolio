@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
           </div>
           <div className='md:block hidden col-start-5 col-end-6'>
-          <h1 className={`${styles.heroHeadText} text-black`}>Hi,</h1>
+          
           </div>
         </div>
       </div>
