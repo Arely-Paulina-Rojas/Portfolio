@@ -1,6 +1,8 @@
 import { styles } from '../styles';
 import { motion } from "framer-motion";
+//import { PlaneCanvas } from './canvas';
 import Typed from 'react-typed';
+import { PlaneCanvas } from './canvas';
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -25,8 +27,8 @@ const Hero = () => {
               I develop user interfaces, <br className='sm: block hidden'/>mobile and web applications 
             </p>
           </div>
-          <div className='md:block hidden col-start-5 col-end-6'>
-          
+          <div className='xl:block hidden col-start-5 col-end-7 place-content-center'>
+            <PlaneCanvas/>
           </div>
         </div>
       </div>

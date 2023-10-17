@@ -1,5 +1,6 @@
 /*import GhostCanvas from "./Ghost";*/
+import CatCanvas from "./Cat";
 import BallCanvas from "./Ball";
-import StarsCanvas from "./Stars";
+import PlaneCanvas from "./plane";
 
-export { /*GhostCanvas,*/ BallCanvas, StarsCanvas };
+export { /*GhostCanvas,*/ CatCanvas, BallCanvas, PlaneCanvas  };
