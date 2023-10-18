@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { close } from '../assets';
 
 const Modal = ({ visible, onClose, image, title, date, points }) => {
+    
+
     const handleOnClose = (e) => {
-        if (e.target.id === 'container') onClose()
+        if (e.target.id === 'container') {
+            document.body.style.overflowY = "visible";
+            document.body.style.overflowY = "scroll";
+            onClose()
+        }
     };
 
-    if(!visible) return null;
+    if(visible) {
+        useEffect(() => {
+            document.body.style.overflow = "hidden";
+            return () => {
+                document.body.style.overflow = "scroll"
+            };
+        }, []);
+    } else {
+        document.body.style.overflowY = "visible";
+        document.body.style.overflowY = "scroll";
+        return null;
+    }
+
+    //if(!visible) return null;
 
     return (
         <div id = 'container' onClick = { handleOnClose } className = 'fixed z-[1000] inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center'>

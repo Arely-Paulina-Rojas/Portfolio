@@ -1,7 +1,5 @@
 import './plane/plane.css';
 
-//import './plane/code.js';
-
 const PlaneCanvas = () => {
     return (
         <main>
