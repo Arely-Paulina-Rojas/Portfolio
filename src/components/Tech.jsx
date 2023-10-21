@@ -17,10 +17,18 @@ const Tech = () => {
           Toolbox and things
         </h2>
       </motion.div>
-      <div className = 'flex flex-row flex-wrap justify-center gap-10'>
+      <br></br>
+      <div className = 'flex flex-row flex-wrap justify-center gap-10 hidden sm:flex'>
         { technologies.map((technology) => (
           <div className = 'w-28 h-28' key = { technology.name }>
             <BallCanvas icon = { technology.icon } />
+          </div>
+        )) }
+      </div>
+      <div className = 'flex flex-row flex-wrap justify-center gap-10 sm:hidden'>
+        { technologies.map((technology) => (
+          <div className = 'w-28 h-28' key = { technology.name }>
+              <img className="absolute w-28 h-28 z-[999]" src = { technology.mobile } />
           </div>
         )) }
       </div>

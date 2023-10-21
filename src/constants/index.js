@@ -29,7 +29,22 @@ import {
   unsafezone,
   unsafezonetwo,
   tophy,
-  tophytwo
+  tophytwo,
+  c_mobile,
+  cplusplus_mobile,
+  java_mobile,
+  typescript_mobile,
+  php_mobile,
+  html_mobile,
+  css_mobile,
+  angular_mobile,
+  bootstrap_mobile,
+  node_mobile,
+  expressjs_mobile,
+  git_mobile,
+  flutter_logo_mobile,
+  mongo_mobile,
+  mysql_mobile
 } from '../assets';
  
 export const navLinks = [
@@ -70,62 +85,77 @@ const technologies = [
   {
     name: "C",
     icon: c,
+    mobile: c_mobile
   },
   {
     name: "C++",
     icon: cplusplus,
+    mobile: cplusplus_mobile
   },
   {
     name: "Java",
     icon: java,
+    mobile: java_mobile
   },
   {
     name: "TypeScript",
     icon: typescript,
+    mobile: typescript_mobile
   },
   {
     name: "PHP",
     icon: php,
+    mobile: php_mobile
   },
   {
     name: "HTML",
     icon: html,
+    mobile: html_mobile
   },
   {
     name: "CSS",
     icon: css,
+    mobile: css_mobile
   },
   {
     name: "Angular",
     icon: angular,
+    mobile: angular_mobile
   },
   {
     name: "Bootstrap",
     icon: bootstrap,
+    mobile: bootstrap_mobile
   },
   {
     name: "Node JS",
     icon: node,
+    mobile: node_mobile
   },
   {
     name: "Express JS",
     icon: expressjs,
+    mobile: expressjs_mobile
   },
   {
     name: "git",
     icon: git,
+    mobile: git_mobile
   },
   {
     name: "Flutter",
     icon: flutter_logo,
+    mobile: flutter_logo_mobile
   },
   {
     name: "MongoDB",
     icon: mongo,
+    mobile: mongo_mobile
   },
   {
     name: "MySQL",
     icon: mysql,
+    mobile: mysql_mobile
   },
 ];
   
