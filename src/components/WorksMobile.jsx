@@ -14,12 +14,7 @@ const MobileProjectCard = ({ index, name, description, tags, image, sec_image, t
     return (
       <>
       <motion.div>
-        <Tilt
-          options = {{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
+        <div
           className = "bg-secondary p-5 sm:w-[360px] w-full"
         >
           <div className = 'relative w-full h-[230px]'>
@@ -51,7 +46,7 @@ const MobileProjectCard = ({ index, name, description, tags, image, sec_image, t
             <span key = { tag.name } className = { `bg-tertiary text-white text-[14px] mr-2 px-2.5 py-0.5` }> { tag.name } </span>
           )) }
         </div>
-        </Tilt>
+        </div>
       </motion.div>
       </>
     )
