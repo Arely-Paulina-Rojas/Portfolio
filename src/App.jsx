@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, WorksMobile } from "./components";
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,7 +12,12 @@ const App = () => {
         <About/>
         <Experience/>
         <Tech/>
-        <Works/>
+        <div className = "hidden sm:flex">
+          <Works/>
+        </div>
+        <div className = "sm:hidden">
+          <WorksMobile/>
+        </div>
         <Contact/>
       </div>
     </BrowserRouter>
