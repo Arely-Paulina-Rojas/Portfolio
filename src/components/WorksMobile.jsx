@@ -6,7 +6,6 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
-import Modal from './Modal';
 
 const MobileProjectCard = ({ index, name, description, tags, image, sec_image, title, date, points, source_code_link }) => {
     const [showModal, setShowModal] = useState(false)
@@ -30,11 +29,6 @@ const MobileProjectCard = ({ index, name, description, tags, image, sec_image, t
               className = 'w-full h-full object-cover'
             />
             <div className = 'absolute inset-0 flex justify-start m-3 card-img_hover'>
-              <div className='w-2 h-2 flex justify-center items-center cursor-pointer'>
-                <button onClick = {() => setShowModal({ showModal })} className = "text-white bg-tertiary hover:bg-black focus:outline-none text-[10px] px-2 py-2 text-center" type="button">
-                  +
-                </button>
-              </div>
               <div className = 'absolute inset-0 flex justify-end m-0 card-img_hover'>
                 <div onClick = {() => window.open(source_code_link, "_blank")} className='white-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer'>
                   <img 
@@ -59,7 +53,6 @@ const MobileProjectCard = ({ index, name, description, tags, image, sec_image, t
         </div>
         </Tilt>
       </motion.div>
-      <Modal visible = { showModal } onClose = { handleOnClose } image = { sec_image } title = { title }  date = { date } points = { points }/>
       </>
     )
   }
