@@ -38,7 +38,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants = { fadeIn("", "", 0.1, 1) } className='mt-4 text-black text-[17px] max-w-3xl leading-[30px]'>
-        I'm a software engineer with experience in Java, C++ and TypeScript, and expertise in frameworks like Angular, Node.js and Flutter. I'm a responsible, quick learner and collaborate closely with mates to create efficient, scalable, and user-friendly solutions that solve real-world problems. 
+      I'm a software engineer with experience in Java, C++, TypeScript, Angular, Node.js, Express.js and Flutter. I'm a responsible, quick learner and collaborate closely with co-workers to create efficient, user-friendly moreover scalable solutions that solve real-world problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

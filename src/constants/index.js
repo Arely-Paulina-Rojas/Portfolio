@@ -167,11 +167,11 @@ const experiences = [
     iconBg: "#fff",
     date: "September 2022 - February 2023",
     points: [
-      'Developing APIs Rest for "AllFix" web application using Nestjs and other related technologies.',
-      'Implementing frontend with backend services of "AllFix" web application using Angular and other related technologies.',
-      'Developing unit tests to APIs Rest of "AllFix" web application using Jest.',
-      'Developing unit tests to frontend of "AllFix" web application using Jasmine.',
-      'Collaborating with work team to create user manual of "AllFix" web application.'
+      'Developend REST APIs for "AllFix" web application using Nestjs and other related technologies.',
+      'Implemented frontend with backend services of "AllFix" web application using Angular and other related technologies.',
+      'Developed unit tests to "AllFix" backend web application using Jest.',
+      'Developed unit tests to "AllFix" frontend web application using Jasmine.',
+      'Collaborated with work team to create "AllFix" web application user manual.'
     ],
   },
 ];
@@ -180,7 +180,7 @@ const projects = [
   {
     name: "Achievements Calculator",
     description:
-      "Mobile application that allows Steam users to calculate the average percentage of achievements earned per game, besides to help for estimate necessary percentage in a game for increase global, providing a user-friendly and efficient solution for users.",
+      "Mobile application that allows Steam users to calculate the average percentage of achievements earned per game, besides to help for estimating necessary percentage in a game for increasing the global one, providing a user-friendly and efficient solution for users.",
     tags: [
       {
         name: "Flutter",
@@ -208,7 +208,7 @@ const projects = [
   {
     name: "GreenWaste",
     description:
-      "Project to foster waste sorting though rewards system and so to contribute caring for the environment. The project make ups itself that a web application for administrators to manage users, materials to recycle and rewards, and mobile application for users can request containers and redeem rewards.",
+      "Project to foster waste sorting through rewards system and so to contribute caring for the environment. The project make up itself that a web application for administrators to manage users, materials to recycle and rewards, in addition to mobile application for users can request containers and redeem rewards.",
     tags: [
       {
         name: "Flutter",
@@ -278,7 +278,7 @@ const projects = [
   {
     name: "UnsafeZone",
     description:
-      "Web application to provide information about insecurity level of a public place. The users can register their experience with comments, images and rating a place from 1 to 10 in agreement that perceived unsafe.",
+      "Web application to provide information about insecurity level of a public place. The users can register their experience with comments, images and rating a place from 1 to 10 in agreement that perceived unsafe bases on what they perceived unsafe.",
     tags: [
       {
         name: "Angular",
