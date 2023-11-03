@@ -5,6 +5,7 @@ import { styles } from '../styles';
 /*import { GhostCanvas } from './canvas';*/
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { CatCanvas } from './canvas';
 
 const Contact = () => {
   const formRef = useRef();
@@ -24,7 +25,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    /*
+    
     if(form.name != "" && form.email != "" && form.message!= "") {
       emailjs.send(
         'service',
@@ -49,12 +50,14 @@ const Contact = () => {
       }, (error) => {
         setLoading(false);
         console.log(error);
+        console.log(import.meta.env.TEMPLATE)
         alert('Something went wrong.')
       })
     } else {
       setLoading(false);
       alert('Empty fields!')
-    }*/
+
+    }
     
   }
 
@@ -110,9 +113,9 @@ const Contact = () => {
       </motion.div>
 
       <motion.div
-        variants = { slideIn('right', "tween", 0.2) } className = 'xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        variants = { slideIn('right', "tween", 0.2) } className = 'xl:flex-1 xl:h-auto md:h-[350px] h-[350px] flex justify-center items-center '
       >
-        
+        <CatCanvas/>
       </motion.div>
     </div>
   )
