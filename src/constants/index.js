@@ -167,7 +167,7 @@ const experiences = [
     iconBg: "#fff",
     date: "September 2022 - February 2023",
     points: [
-      'Developend REST APIs for "AllFix" web application using Nestjs and other related technologies.',
+      'Developed REST APIs for "AllFix" web application using Nestjs and other related technologies.',
       'Implemented frontend with backend services of "AllFix" web application using Angular and other related technologies.',
       'Developed unit tests to "AllFix" backend web application using Jest.',
       'Developed unit tests to "AllFix" frontend web application using Jasmine.',
@@ -199,16 +199,16 @@ const projects = [
     date: "May 2023 - June 2023",
     points: [
       'Designed the database model.',
-      'Designed an easy-to-understand-and-use interfaces using Figma.',
+      'Developed an easy-to-understand-use interfaces using Figma.',
       'Implemented a code repository management system using GitHub. ',
       'Developed all CRUD functions using Flutter with SQLite. ',
-      'Conducted testing and user feedback analysis, eliminating bugs.'
+      'Conducted testing and user feedback analysis eliminating bugs.'
     ],
   },
   {
     name: "GreenWaste",
     description:
-      "Project to foster waste sorting through rewards system and so to contribute caring for the environment. The project make up itself that a web application for administrators to manage users, materials to recycle and rewards, in addition to mobile application for users can request containers and redeem rewards.",
+      "Project to foster waste sorting through a reward system and so to contribute caring for the environment. The project makes up itself that a web application for administrators to manage users, materials to recycle and rewards, in addition to mobile application for users can request containers and redeem rewards.",
     tags: [
       {
         name: "Flutter",
@@ -245,7 +245,7 @@ const projects = [
   {
     name: "QuickBreak",
     description:
-      "A mobile application inspired in the Pomodoro Technique but focus for videogames players. Its goal is to prevent eye strain by using an alarm that remembers users when to take a break.",
+      "A mobile application inspired in the Pomodoro Technique but focused for videogame players. Its goal is to prevent eye strain by using an alarm that remembers users when to take a break.",
     tags: [
       {
         name: "Flutter",
@@ -268,7 +268,7 @@ const projects = [
     date: "June 2022 - August 2022",
     points: [
       'Designed database model.',
-      'Designed an easy-to-understand-and-use interfaces.',
+      'Developed an easy-to-understand-use interfaces.',
       'Designed and understood user stories.',
       'Developed 100% Restful API to control user functions using Express.Js With MongoDB as a persistence layer while utilizing Flutter on the frontend.',
       'Implemeted fingerprint and face detetion sensors.',
@@ -278,7 +278,7 @@ const projects = [
   {
     name: "UnsafeZone",
     description:
-      "Web application to provide information about insecurity level of a public place. The users can register their experience with comments, images and rating a place from 1 to 10 in agreement that perceived unsafe bases on what they perceived unsafe.",
+      "Web application to provide information about insecurity level of a public place. The users can register their experience with comments, images and rating a place from 1 to 10 in agreement that perceived unsafe based on what they perceived unsafe.",
     tags: [
       {
         name: "Angular",
@@ -304,14 +304,14 @@ const projects = [
     points: [
       'Designed and understood user stories.',
       'Designed data models using best practices to ensure high data quality and reduced redundancy.',
-      "Designed an atractive and friendly user interfaces using Figma, enabling customers to understand app's operation.",
+      "Developed atractive and friendly user interfaces using Figma, enabling customers to understand app's operation.",
       'Developed UnsafeZone with technology like Express and MongoDB to manage and pass requests from Angular front-end.'
     ],
   },
   {
     name: "TophyGalaxy",
     description:
-      "Web application to provide news, reviews and articles about entertainment medio like movies or series. The web app allows users to write their reviews and leave comments, providing simply and user-friendly interface.",
+      "Web application to provide news, reviews and articles about entertainment media like movies or series. The web app allows users to write their reviews and leave comments, providing simply and user-friendly interface.",
     tags: [
       {
         name: "PHP",
@@ -334,8 +334,8 @@ const projects = [
     points: [
       'Collaborated with a pair team to design and understood user stories.',
       'Collaborated with pair team to concisely design database model.',
-      'Designed an atractive, useful and  friendly interfaces using draw.io, enabling users to easily find wishful information.',
-      'Developed 100% Restful API to control user functions using CodeIgniter with MySQL.'
+      'Developed atractive, useful and  friendly interfaces using draw.io, enabling users to easily find wishful information.',
+      'Developed a 100% Restful API to control user functions using CodeIgniter with MySQL.'
     ],
   },
 ];

@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, sec_image, title, 
           <div className = 'absolute inset-0 flex justify-start m-3 card-img_hover'>
             <div className='w-2 h-2 flex justify-center items-center cursor-pointer'>
               <button onClick = {() => setShowModal({ showModal })} className = "text-white bg-tertiary hover:bg-black focus:outline-none text-[10px] px-2 py-2 text-center" type="button">
-                +
+                Read more
               </button>
             </div>
             <div className = 'absolute inset-0 flex justify-end m-0 card-img_hover'>
