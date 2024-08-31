@@ -15,8 +15,8 @@ const Hero = () => {
             <Typed
               strings = { [
                 "Arely Paulina",
-                "Software Enginner",
-                "Full Stack Developer"
+                "a Software Enginner",
+                "a Full Stack Developer"
               ]}
               typeSpeed={150}
               backSpeed={100}
@@ -24,7 +24,7 @@ const Hero = () => {
             />
           </h1>
             <p className={`${styles.heroSubText} mt-2 text-black-100`}>
-              I develop user interfaces, <br className='sm: block hidden'/>mobile and web applications 
+              I develop user interfaces, <br className='sm: block hidden'/>mobile & web applications 
             </p>
           </div>
           <div className='xl:block hidden col-start-5 col-end-7 place-content-center'>
