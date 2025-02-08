@@ -6,6 +6,7 @@ import backend from './backend.png';
 import web from './web.png';
 import flutter from './flutter.png';
 import axio from './company/axio.png';
+import inbursa from './company/inbursa.png';
 import c from './tech/c.png';
 import cplusplus from './tech/cplusplus.png';
 import java from './tech/java.png';
@@ -21,6 +22,11 @@ import git from './tech/git.png';
 import flutter_logo from './tech/flutter.png';
 import mongo from './tech/mongo.png';
 import mysql from './tech/mysql.png';
+import spring_boot from './tech/spring_boot.png';
+import oracle from './tech/oracle.png';
+import github_logo from './tech/github.png';
+import figma from './tech/figma.png';
+import angularjs from './tech/angularjs.png';
 import greenwaste from './projects/greenwaste.png';
 import greenwastetwo from './projects/greenwaste_2.png';
 import calculator from './projects/calculator.png';
@@ -57,6 +63,7 @@ export {
     web,
     flutter,
     axio,
+    inbursa,
     c,
     cplusplus,
     java,
@@ -72,6 +79,11 @@ export {
     flutter_logo,
     mongo,
     mysql,
+    spring_boot,
+    oracle,
+    github_logo,
+    figma,
+    angularjs,
     greenwaste,
     greenwastetwo,
     calculator,

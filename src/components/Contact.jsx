@@ -79,7 +79,7 @@ const Contact = () => {
                 name = 'name'
                 value = { form.name }
                 onChange = { handleChange }
-                placeholder = "What's your name?"
+                placeholder = "Enter your name"
                 className = 'bg-primary py-4 px-6 placeholder:text-quaternary text-black oulined-none outline-none border-none font-medium' 
               />
           </label>
@@ -90,7 +90,7 @@ const Contact = () => {
                 name = 'email'
                 value = { form.email }
                 onChange = { handleChange }
-                placeholder = "What's your email?"
+                placeholder = "Enter your email"
                 className = 'bg-primary py-4 px-6 placeholder:text-quaternary text-black outlined-none outline-none border-none font-medium' 
               />
           </label>

@@ -5,6 +5,7 @@ import {
   web,
   flutter,
   axio,
+  inbursa,
   c,
   cplusplus,
   java,
@@ -20,6 +21,11 @@ import {
   flutter_logo,
   mongo,
   mysql,
+  spring_boot,
+  oracle,
+  github_logo,
+  figma,
+  angularjs,
   greenwaste,
   greenwastetwo,
   calculator,
@@ -157,9 +163,50 @@ const technologies = [
     icon: mysql,
     mobile: mysql_mobile
   },
+  {
+    name: "Spring Boot",
+    icon: spring_boot,
+    mobile: spring_boot
+  },
+  /*
+  {
+    name: "Oracle",
+    icon: oracle,
+    mobile: oracle
+  },
+  /*
+  {
+    name: "Github",
+    icon: github_logo,
+    mobile: github_logo
+  },
+  /*
+  {
+    name: "AngularJS",
+    icon: angularjs,
+    mobile: angularjs
+  },
+  {
+    name: "Figma",
+    icon: figma,
+    mobile: figma
+  }¨*/
 ];
   
 const experiences = [
+  {
+    title: "Full Stack Web Developer",
+    company_name: "Grupo Financiero Inbursa",
+    icon: inbursa,
+    iconBg: "#fff",
+    date: "January 2024 - Current",
+    points: [
+      'Modified microservices using Spring Boot, Oracle SQL, and Java in order to verify tax transactions.',
+      'Designed and developed new graphical user interfaces and features for online banking applications, using AngularJS, SonarQube, Oracle Web Center, Express JS and Node JS.',
+      'Refactored JavaScript code and reduced 95% of code errors detected by SonarQube to ensure code quality, performance and best practices.',
+      "Contributed to migrating a website's modules from AngularJS to Angular 17/19 to improve its performance and availability.",
+    ],
+  },
   {
     title: "Full Stack Web Developer",
     company_name: "Fundación Axio A.C.",
