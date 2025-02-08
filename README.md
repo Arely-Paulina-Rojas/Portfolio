@@ -1,4 +1,4 @@
-# Portafolio
+# Portfolio
 A portfolio to show my skills, work experience and projects c:
 
 Assets:
@@ -11,3 +11,5 @@ Plane code by:
 
 Cat code by:
 - Coding Artist https://codingartistweb.com/2021/11/coder-kitty-animation-with-html-and-css/
+
+![Portfolio](src/assets/projects/portfolio.png)
